@@ -25,24 +25,24 @@ render() {
   return (
       <div>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+  <Navbar.Brand href="#home">TastyFood</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-      <NavLink href="#features">Features</NavLink>
-      <NavLink href="#pricing">Pricing</NavLink>
-      <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+      <NavLink href="#features">Recipes</NavLink>
+      <NavLink href="#pricing">About Us</NavLink>
+      <NavDropdown title="Cuisines" id="collasible-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1">Asian</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">American</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Mexican</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.4">Italian</NavDropdown.Item>
       </NavDropdown>
     </Nav>
     <Nav>
-      <NavLink href="#deets">More deets</NavLink>
+      <NavLink href="#deets">Contact Us</NavLink>
       <NavLink href="#memes">
-        Dank memes
+        Herbs
       </NavLink>
     </Nav>
   </Navbar.Collapse>

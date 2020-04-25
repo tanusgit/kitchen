@@ -5,3 +5,5 @@ for navbar:
 https://react-bootstrap.github.io/components/navbar/
 for button:
 https://www.npmjs.com/package/react-awesome-button
+for image:
+https://create-react-app.dev/docs/adding-images-fonts-and-files/

@@ -15,7 +15,25 @@ code {
 
 #app,#hobby,#greet{ 
 border:4px;
- padding:10px; 
- margin:10px; 
+ 
+ 
  border-radius: 10px; } 
 
+#pic{
+  width: 100%;
+}
+#b{
+  width: 80px;
+  height: 50px;
+  margin: 5px;
+  border: 2px;
+  border-color: lawngreen;
+  
+}
+p.boxhtml{
+  width: 100px;
+  height: 50px;
+  margin: 5px;
+  border: 2px;
+  border-color: lawngreen;
+}
